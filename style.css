@@ -1,0 +1,57 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    font-family:'dancing script';
+    background: url(https://www.tekmoz.com/wp-content/uploads/2019/05/Tekmoz-laptop-repair-tutorial-image.jpg) 
+    no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    font-size: 2rem;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+body > hr{
+    border: 10px solid orangered;
+    background: orangered;
+    opacity: 1;
+    border-width:2px ;
+    max-width: 65px;
+    height: 10px;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100%;
+    justify-content: center;;
+}
+.buffer{
+    height: 80px;
+}
+.btn{
+    font-weight: 700S;
+    border-radius: 30px;
+    text-transform: uppercase;
+    width: fit-content;
+    margin-top: 45pX;
+}
+.btn-primary{
+    background-color:orangered;
+    border: none;
+    transition: all 1s ease-out;
+}
+.btn-primary:hover {
+    background-color: blueviolet;
+    border-color: blueviolet;
+    border-width: 4px;
+    transition: all 1s ease-out;
+}
+.btn-xl{
+    padding: 1rem 2rem;
+}
